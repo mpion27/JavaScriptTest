@@ -161,6 +161,7 @@ function truncateWords(text, numberOfWords){
             return text.substring(0, i);
         }
     }
+    return text;
 }
 
 function alphabetizeString(text){
